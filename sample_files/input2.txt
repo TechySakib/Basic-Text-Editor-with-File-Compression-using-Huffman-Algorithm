@@ -1,0 +1,3 @@
+Operating Systems project demo file.
+This file can be opened, edited, saved, compressed, and decompressed.
+The restored output should match the original exactly.
