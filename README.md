@@ -411,20 +411,8 @@ done
 
 ---
 
-## 📈 Future Enhancements
 
-- [ ] 🎨 Dark mode & modern UI redesign
-- [ ] 📄 Support for multiple file formats (PDF, DOCX)
-- [ ] ⚡ Parallel compression for large files
-- [ ] 🌳 Interactive Huffman tree visualization
-- [ ] 📊 Advanced statistics & analytics dashboard
-- [ ] 🔐 Encryption integration
-- [ ] ☁️ Cloud storage integration
-- [ ] 🧩 Plugin architecture
-- [ ] 📱 Web version (Flask/Django)
-- [ ] 🤖 AI-powered text analysis
-
----
+-
 
 ## ⚠️ Known Limitations
 
@@ -525,20 +513,6 @@ git push origin feature/amazing-feature
 
 ---
 
-## 📝 License
-
-```
-This project is licensed under the Academic Use License.
-
-✓ Educational & Research Use: Allowed
-✓ Commercial Use: Contact authors
-✓ Modification: Allowed with attribution
-✗ Distribution: Only on GitHub (no selling)
-
-For detailed terms, see LICENSE file.
-```
-
----
 
 ## ⭐ Show Your Support
 
