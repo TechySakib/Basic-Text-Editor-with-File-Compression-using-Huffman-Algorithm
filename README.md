@@ -481,8 +481,8 @@ git push origin feature/amazing-feature
 | Name | Role | GitHub |
 |------|------|--------|
 | **MD Nazmus Sakib** | Lead Developer | [@TechySakib](https://github.com/TechySakib) |
-| **Ayeesha Mehjabeen** | Contributor | [@username](https://github.com) |
-| **Iqtedar Alim Alve** | Contributor | [@username](https://github.com) |
+| **Ayeesha Mehjabeen** | Contributor | [@username](https://github.com/Ayeesha2023?tab=overview&from=2024-12-01&to=2024-12-31) |
+| **Iqtedar Alim Alve** | Contributor | [@username](https://github.com/IqtedarAlave) |
 
 ---
 
