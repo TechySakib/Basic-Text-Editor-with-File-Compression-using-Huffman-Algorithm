@@ -452,7 +452,7 @@ We welcome contributions! Here's how to help:
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm.git
+git clone https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm.git
 cd Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm
 ```
 
@@ -489,9 +489,9 @@ git push origin feature/amazing-feature
 ## 📚 Course Information
 
 - **Course:** CSE 323 – Operating Systems & Algorithms
-- **Institution:** [Your University Name]
-- **Semester:** Fall 2024
-- **Instructor:** [Professor Name]
+- **Institution:** North South University
+- **Semester:** Spring 2026
+- **Instructor:** REESHOON SAYERA (RSY)
 - **Platform:** Ubuntu Linux / Windows 10+
 
 ---
@@ -564,8 +564,7 @@ A: See the Contributing section above. Fork → Branch → Commit → Push → P
 
 - **Issues & Bugs** → [GitHub Issues](https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm/issues)
 - **Feature Requests** → [GitHub Discussions](https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm/discussions)
-- **Email** → nazmus@example.com
-- **Discord** → Join our [community server](#)
+- **Email** → nazmus.sakib1@northsouth.edu
 
 ---
 
