@@ -71,7 +71,7 @@ A **production-grade desktop text editor** that demonstrates the practical appli
 <table>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/2c3e50/ffffff?text=Main+Editor+Interface" alt="Main Editor" width="100%">
+      <img src="compress.png">
       <br>
       <strong>💻 Text Editor</strong>
       <br>
