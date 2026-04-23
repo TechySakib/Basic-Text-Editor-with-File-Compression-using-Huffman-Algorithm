@@ -71,14 +71,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
 <table>
   <tr>
     <td align="center">
-      <img src="compress.png">
+      <img src="home screen.png">
       <br>
       <strong>💻 Text Editor</strong>
       <br>
       <em>Create & edit text files with ease</em>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/e74c3c/ffffff?text=Compression+Interface" alt="Compression" width="100%">
+      <img src="compress.png">
       <br>
       <strong>🗜️ Compression Panel</strong>
       <br>
@@ -87,14 +87,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
   </tr>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/27ae60/ffffff?text=Huffman+Tree+View" alt="Tree View" width="100%">
+      <img src="htree visulization.svg">
       <br>
       <strong>🌳 Huffman Tree Visualization</strong>
       <br>
       <em>Visual representation of encoding tree</em>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/3498db/ffffff?text=Decompression+Result" alt="Decompression" width="100%">
+      <img src="decom.png">
       <br>
       <strong>🔓 Decompression Success</strong>
       <br>
