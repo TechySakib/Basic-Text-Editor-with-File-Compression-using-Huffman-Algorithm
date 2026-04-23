@@ -71,14 +71,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
 <table>
   <tr>
     <td align="center">
-      <img src="home screen.png">
+      <img src="home screen.png" width="300" height="300">
       <br>
       <strong>💻 Text Editor</strong>
       <br>
       <em>Create & edit text files with ease</em>
     </td>
     <td align="center">
-      <img src="compress.png">
+      <img src="compress.png" width="300" height="300">
       <br>
       <strong>🗜️ Compression Panel</strong>
       <br>
@@ -87,14 +87,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
   </tr>
   <tr>
     <td align="center">
-      <img src="htree visulization.svg">
+      <img src="huffman.png" width="300" height="300">
       <br>
       <strong>🌳 Huffman Tree Visualization</strong>
       <br>
       <em>Visual representation of encoding tree</em>
     </td>
     <td align="center">
-      <img src="decom.png">
+      <img src="decom.png" width="300" height="300">
       <br>
       <strong>🔓 Decompression Success</strong>
       <br>
@@ -102,8 +102,6 @@ A **production-grade desktop text editor** that demonstrates the practical appli
     </td>
   </tr>
 </table>
-
-> **📌 Note:** Replace placeholder images with actual screenshots of your application
 
 ---
 
