@@ -524,9 +524,6 @@ If this project helped you or you found it useful:
 │  🔗 Share with community        │
 └─────────────────────────────────┘
 ```
-
-**Star history will be displayed here →** [![Star History Chart](https://api.star-history.com/svg?repos=TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm&type=Date)](https://star-history.com/#TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm&Date)
-
 ---
 
 ## 💬 FAQ
