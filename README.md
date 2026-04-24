@@ -71,14 +71,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
 <table>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/2c3e50/ffffff?text=Main+Editor+Interface" alt="Main Editor" width="100%">
+      <img src="home screen.png" width="300" height="300">
       <br>
       <strong>💻 Text Editor</strong>
       <br>
       <em>Create & edit text files with ease</em>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/e74c3c/ffffff?text=Compression+Interface" alt="Compression" width="100%">
+      <img src="compress.png" width="300" height="300">
       <br>
       <strong>🗜️ Compression Panel</strong>
       <br>
@@ -87,14 +87,14 @@ A **production-grade desktop text editor** that demonstrates the practical appli
   </tr>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/27ae60/ffffff?text=Huffman+Tree+View" alt="Tree View" width="100%">
+      <img src="huffman.png" width="300" height="300">
       <br>
       <strong>🌳 Huffman Tree Visualization</strong>
       <br>
       <em>Visual representation of encoding tree</em>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/450x300/3498db/ffffff?text=Decompression+Result" alt="Decompression" width="100%">
+      <img src="decom.png" width="300" height="300">
       <br>
       <strong>🔓 Decompression Success</strong>
       <br>
@@ -102,8 +102,6 @@ A **production-grade desktop text editor** that demonstrates the practical appli
     </td>
   </tr>
 </table>
-
-> **📌 Note:** Replace placeholder images with actual screenshots of your application
 
 ---
 
@@ -412,7 +410,7 @@ done
 ---
 
 
--
+
 
 ## ⚠️ Known Limitations
 
@@ -452,7 +450,7 @@ We welcome contributions! Here's how to help:
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm.git
+git clone https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm.git
 cd Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm
 ```
 
@@ -481,17 +479,17 @@ git push origin feature/amazing-feature
 | Name | Role | GitHub |
 |------|------|--------|
 | **MD Nazmus Sakib** | Lead Developer | [@TechySakib](https://github.com/TechySakib) |
-| **Ayeesha Mehjabeen** | Contributor | [@username](https://github.com) |
-| **Iqtedar Alim Alve** | Contributor | [@username](https://github.com) |
+| **Ayeesha Mehjabeen** | Contributor | [@Ayeesha2023](https://github.com/Ayeesha2023?tab=overview&from=2024-12-01&to=2024-12-31) |
+| **Iqtedar Alim Alve** | Contributor | [@IqtedarAlave](https://github.com/IqtedarAlave) |
 
 ---
 
 ## 📚 Course Information
 
 - **Course:** CSE 323 – Operating Systems & Algorithms
-- **Institution:** [Your University Name]
-- **Semester:** Fall 2024
-- **Instructor:** [Professor Name]
+- **Institution:** North South University
+- **Semester:** Spring 2026
+- **Instructor:** REESHOON SAYERA (RSY)
 - **Platform:** Ubuntu Linux / Windows 10+
 
 ---
@@ -526,9 +524,6 @@ If this project helped you or you found it useful:
 │  🔗 Share with community        │
 └─────────────────────────────────┘
 ```
-
-**Star history will be displayed here →** [![Star History Chart](https://api.star-history.com/svg?repos=TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm&type=Date)](https://star-history.com/#TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm&Date)
-
 ---
 
 ## 💬 FAQ
@@ -564,8 +559,7 @@ A: See the Contributing section above. Fork → Branch → Commit → Push → P
 
 - **Issues & Bugs** → [GitHub Issues](https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm/issues)
 - **Feature Requests** → [GitHub Discussions](https://github.com/TechySakib/Basic-Text-Editor-with-File-Compression-using-Huffman-Algorithm/discussions)
-- **Email** → nazmus@example.com
-- **Discord** → Join our [community server](#)
+- **Email** → nazmus.sakib1@northsouth.edu
 
 ---
 
