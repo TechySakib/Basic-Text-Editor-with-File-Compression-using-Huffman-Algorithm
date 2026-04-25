@@ -16,6 +16,8 @@ class TextEditorApp:
         
         # Dictionary to track tab data: {tab_id: {"text_area": widget, "filepath": path}}
         self.tabs = {}
+        
+        self.is_dark_mode = False # Track the current theme state
 
         self.root.title("Basic Text Editor with Huffman Compression")
         self.root.geometry("1000x700")
@@ -86,6 +88,11 @@ class TextEditorApp:
         compression_menu.add_command(label="Decompress .huff File", command=self.decompress_file)
         menu_bar.add_cascade(label="Compression", menu=compression_menu)
 
+        # View Menu
+        view_menu = tk.Menu(menu_bar, tearoff=0)
+        view_menu.add_command(label="Toggle Theme (Dark/Light)", command=self.toggle_theme)
+        menu_bar.add_cascade(label="View", menu=view_menu)
+
         # Help Menu
         help_menu = tk.Menu(menu_bar, tearoff=0)
         help_menu.add_command(label="About", command=self.show_about)
@@ -94,9 +101,15 @@ class TextEditorApp:
         self.root.config(menu=menu_bar)
 
     def _create_status_bar(self) -> None:
+        self.status_frame = tk.Frame(self.root, relief=tk.SUNKEN, borderwidth=1)
+        self.status_frame.pack(side=tk.BOTTOM, fill=tk.X)
+        
         self.status_var = tk.StringVar(value="Ready")
-        status_bar = tk.Label(self.root, textvariable=self.status_var, anchor="w", relief=tk.SUNKEN)
-        status_bar.pack(side=tk.BOTTOM, fill=tk.X)
+        status_label = tk.Label(self.status_frame, textvariable=self.status_var, anchor="w")
+        status_label.pack(side=tk.LEFT, fill=tk.X, expand=True)
+
+        self.theme_btn = tk.Button(self.status_frame, text="🌙 / ☀️", command=self.toggle_theme, relief=tk.FLAT, cursor="hand2")
+        self.theme_btn.pack(side=tk.RIGHT, padx=5)
 
     def _set_status(self, message: str) -> None:
         self.status_var.set(message)
@@ -123,11 +136,18 @@ class TextEditorApp:
         """Helper to create a new tab frame and text buffer[cite: 13, 21]."""
         tab_frame = tk.Frame(self.notebook)
         
+        bg_color = "#2b2b2b" if getattr(self, 'is_dark_mode', False) else "white"
+        fg_color = "#a9b7c6" if getattr(self, 'is_dark_mode', False) else "black"
+        insert_bg = "white" if getattr(self, 'is_dark_mode', False) else "black"
+        
         text_area = tk.Text(
             tab_frame,
             wrap=tk.WORD,
             undo=True,
             font=("Consolas", 12),
+            bg=bg_color,
+            fg=fg_color,
+            insertbackground=insert_bg
         )
         text_area.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         text_area.insert(tk.END, content)
@@ -323,6 +343,21 @@ class TextEditorApp:
 
     def show_about(self) -> None:
         messagebox.showinfo("About", "Basic Text Editor with Huffman Compression\nCourse: CSE 323\nPlatform: Ubuntu/VMware [cite: 2, 3]")
+
+    def toggle_theme(self) -> None:
+        """Toggles between dark and light modes."""
+        self.is_dark_mode = not self.is_dark_mode
+        self._apply_theme()
+
+    def _apply_theme(self) -> None:
+        """Applies the current theme colors to all text areas."""
+        bg_color = "#2b2b2b" if self.is_dark_mode else "white"
+        fg_color = "#a9b7c6" if self.is_dark_mode else "black"
+        insert_bg = "white" if self.is_dark_mode else "black"
+
+        for data in self.tabs.values():
+            if "text_area" in data:
+                data["text_area"].config(bg=bg_color, fg=fg_color, insertbackground=insert_bg)
 
     def exit_app(self) -> None:
         """Safe exit checking all tabs for unsaved modifications."""
