@@ -41,6 +41,7 @@ A **production-grade desktop text editor** that demonstrates the practical appli
 - Line numbers and syntax highlighting ready
 - Auto-save capability
 - Character and word count statistics
+- 🌙/☀️ **Dark/Light Theme Toggle** support built into the status bar
 
 ### 🗜️ **Huffman Compression**
 - Optimized Huffman tree construction
