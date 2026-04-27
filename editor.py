@@ -88,11 +88,6 @@ class TextEditorApp:
         compression_menu.add_command(label="Decompress .huff File", command=self.decompress_file)
         menu_bar.add_cascade(label="Compression", menu=compression_menu)
 
-        # View Menu
-        view_menu = tk.Menu(menu_bar, tearoff=0)
-        view_menu.add_command(label="Toggle Theme (Dark/Light)", command=self.toggle_theme)
-        menu_bar.add_cascade(label="View", menu=view_menu)
-
         # Help Menu
         help_menu = tk.Menu(menu_bar, tearoff=0)
         help_menu.add_command(label="About", command=self.show_about)
