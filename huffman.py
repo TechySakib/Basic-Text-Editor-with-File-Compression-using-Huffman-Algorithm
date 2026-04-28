@@ -10,6 +10,8 @@ class HuffmanNode:
 
     char: str | None = None
     freq: int = 0
+    
+    
     left: "HuffmanNode | None" = None
     right: "HuffmanNode | None" = None
 
