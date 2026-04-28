@@ -178,7 +178,7 @@ class TextEditorApp:
         if not file_path:
             return
 
-        # CONSISTENCY CHECK: Prevent duplicate tabs for the same disk file
+        # CONSISTENCY CHECK: Prevent duplicate tabs for the same disk file 
         for tab_id, data in self.tabs.items():
             if data["filepath"] == file_path:
                 self.notebook.select(tab_id)
@@ -204,7 +204,7 @@ class TextEditorApp:
             content = self._get_text_content(data["text_area"])
             write_text_file(data["filepath"], content)
             
-            # Reset modification flag upon successful save
+            # Reset modification flag upon successfull save
             data["text_area"].edit_modified(False)
             
             self._update_title()
